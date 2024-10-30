@@ -1,6 +1,6 @@
 # 批量归一化
 
-为了使神经网络收敛的更快，使用批量归一化。批量归一化会固定均值和标准差。其中 $\mu_B = \frac{1}{\abs{B}} \sum_{i \in B}x_i$ 和 $\sigma^2_B = \frac{1}{\abs{B}} \sum_{i \in B}(x_i - \mu_B)^2 + \epsilon$
+为了使神经网络收敛的更快，使用批量归一化。批量归一化会固定均值和标准差。其中 $\mu_B = \frac{1}{|B|} \sum_{i \in B}x_i$ 和 $\sigma^2_B = \frac{1}{|B|} \sum_{i \in B}(x_i - \mu_B)^2 + \epsilon$
 
 接下来进行批量归一化
 $$
